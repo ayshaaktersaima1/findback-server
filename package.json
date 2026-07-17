@@ -2,9 +2,9 @@
   "name": "findback-server",
   "version": "1.0.0",
   "description": "",
-  "main": "api/index.ts",
+  "main": "dist/index.js",
   "scripts": {
-    "dev": "tsx watch api/index.ts",
+    "dev": "tsx watch index.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },
